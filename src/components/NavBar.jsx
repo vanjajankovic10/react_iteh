@@ -1,5 +1,6 @@
 import React from 'react'
 import {AiOutlineSearch} from "react-icons/ai"
+import { Link } from 'react-router-dom';
 
 const NavBar = ({search}) => {
   return (
@@ -11,9 +12,21 @@ const NavBar = ({search}) => {
     <div className="nav-elements">
         <div className="pages">
             <ul>
-                <li>Home</li>
-                <li>Products</li>
-                <li>Wishlist</li>
+                <li>
+                    <Link className="link" to="/">
+                    Home
+                    </Link>
+                </li>
+                <li>
+                    <Link className="link" to="/products">
+                    Products
+                    </Link>
+                </li>
+                <li>
+                <Link className="link" to="/wishlist">
+                    Wishlist
+                    </Link>
+                </li>
             </ul>
         </div>
         <div className="searchArea">

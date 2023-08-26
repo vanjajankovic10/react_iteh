@@ -16,6 +16,7 @@ body {
 }
 
 .logo{
+  margin-top: 5px;
   margin-right: 20px;
 }
 
@@ -272,29 +273,98 @@ input[type=text] {
   font-size: 13px;
 }
 
-/*
+
 .nav-elements ul {
   display: flex;
   list-style-type: none;
-  margin: 0; 
+  margin-left: 20px; 
   padding: 0;
+  
 }
 
-.nav-elements ul li:not(:last-child) {
-  margin-right: 60px;
-}
 
 .nav-elements ul a {
   font-size: 16px;
-  font-weight: 400;
-  color: #2f234f;
+  font-weight: bold;
+  color: #151515;
   text-decoration: none;
 }
 
-.nav-elements ul a.active {
-  color: #574c4c;
-  font-weight: 500;
-  position: relative;
+.add{
+  color:#ffffff;
+  background-color: rgb(6, 106, 184);
 }
-*/
+.remove{
+  color:#ffffff;
+  background-color: rgb(69, 4, 4);
+}
 
+.row{
+  margin-right: 90px;
+  margin-left:90px;
+  margin-top: 40px;
+  padding: 40px;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 330px 330px 330px;
+  max-width: 100%;
+  column-gap: 60px;
+  background-color: #FFC2CD;
+  border-radius: 10px;
+  border: 2px solid #FFC2CD; 
+}
+
+.row-selected{
+  margin-right: 90px;
+  margin-left:90px;
+  margin-top: 40px;
+  padding: 40px;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 330px 330px 330px;
+  max-width: 100%;
+  column-gap: 60px;
+  background-color: #FFC2CD;
+  border-radius: 10px;
+  border: 2px solid #FFC2CD; 
+  min-height:380px ;
+}
+
+.card{
+  border: 3px solid rgb(240, 199, 221); 
+  border-radius: 10px; 
+  background-color: #ffffff;
+}
+.card-body {
+ margin: 30px;
+ text-align: justify;
+}
+
+.card-title{
+  text-align: center;
+  font-size: large;
+}
+
+.card-img-top{
+  margin:20px auto;
+  display: block;
+  height: 300px;
+  width: auto;  
+}
+
+.add{
+  height: 30px;
+  width: 120px;
+  border-radius: 10px;
+  background-color:#dc93a1;
+  border-color: #c77e8d;
+}
+
+.remove{
+    height: 30px;
+    width: 160px;
+    border-radius: 10px;
+    background-color:#dc93a1;
+    border-color: #c77e8d;
+  
+}
