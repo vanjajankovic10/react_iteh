@@ -14,7 +14,7 @@ function Selected({ products, criteria, remove }) {
         <>
           {products
             .filter((r) =>
-              r.naziv.toLowerCase().includes(criteria.toLowerCase())
+              r.brand.toLowerCase().includes(criteria.toLowerCase())
             )
             .map((r) => (
               <div key={r.id}>

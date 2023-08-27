@@ -119,8 +119,8 @@ function remove(id) {
     path="/products"
     element={
     <Products
-      products={productsArray}
       criteria={searchCriteria}
+      products={productsArray}
       add={add}
     ></Products>
     }>
